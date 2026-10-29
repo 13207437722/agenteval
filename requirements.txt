@@ -1,0 +1,8 @@
+# AgentEval 依赖
+
+pydantic>=2.0.0
+deepeval>=3.0.0        # 已在 4.3.1 上验证
+openai>=1.0.0          # Judge 通过 OpenAI 兼容接口调用（OpenAI / DeepSeek / 通义千问 / vLLM 等）
+python-dotenv>=1.0.0
+
+pytest>=7.0.0

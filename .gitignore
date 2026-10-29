@@ -1,0 +1,55 @@
+# 环境配置
+.env
+.env.*
+!.env.example
+
+# 参考资料、简历、面试面经（不提交）
+references/
+docs/archive/
+.claude/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 私有结果（不提交敏感数据）
+results/private/
+data/private/
